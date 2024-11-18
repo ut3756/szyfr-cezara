@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="szyfr_cezara.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Entry
+                x:Name="entCezary"
+                />
+            <Label
+                Text="klicz"
+                />
+            <Entry
+                x:Name="entKlucz"
+                Text="13"
+                />
+            <Button
+                Clicked="barykuj"
+                Text="szyfruj"
+                />
+            <Button
+                Clicked="odbarykuj"
+                Text="odszyfruj"
+                />
+            <Entry
+                x:Name="otu"
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
